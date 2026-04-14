@@ -1,0 +1,71 @@
+.header{
+    background-color: mistyrose;
+    color: black;
+    height: 150px;
+    line-height: 150px;
+    padding: 20px;
+    text-decoration: underline
+}
+
+.mainBody{
+    background-color: lightgray;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.footer{
+    background-color: lightblue;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+    
+img{
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+
+.common{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav a{
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+nav a:hover{
+    background-color: lightslategray;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+.tableau {
+    max-width: 100%;
+}
